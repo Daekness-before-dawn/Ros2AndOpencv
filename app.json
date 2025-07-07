@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/bluetooth/bluetooth0",
+    "pages/bluetooth1/bluetooth1",
+    "pages/bluetooth2/bluetooth2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#BBFFFF",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/bluetooth/bluetooth0",
+      "text": "蓝牙",
+      "iconPath": "/pages/pictures/selectedIconPath.png",
+      "selectedIconPath": "/pages/pictures/iconPath.png"
+    }, {
+      "pagePath": "pages/bluetooth1/bluetooth1",
+      "text": "设备1",
+      "iconPath": "/pages/pictures/selectedIconPath.png",
+      "selectedIconPath": "/pages/pictures/iconPath.png"
+    }, {
+      "pagePath": "pages/bluetooth2/bluetooth2",
+      "text": "设备2",
+      "iconPath": "/pages/pictures/selectedIconPath.png",
+      "selectedIconPath": "/pages/pictures/iconPath.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
